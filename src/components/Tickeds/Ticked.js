@@ -55,7 +55,7 @@ const Ticked = () => {
                     {
                         Alltickeds.map((tickeds) => (
                             <li className='Ticked-item-page item-page row align-item-center column'>
-                                <img className='col-1 rounded-pill' src={tickeds.img} width="14" height="74" alt={tickeds.customername} />
+                                <img className='col-1 rounded-pill' src={tickeds.img} width="14" height="64" alt={tickeds.customername} />
 
                                 <div className='item-page-content col-4'>
                                     <h4 className='item-page-title'>
